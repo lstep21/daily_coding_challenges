@@ -8,6 +8,6 @@
 // text before = "abc"
 // character   = "z"
 // text after  = "zzz"
-function contamination(text, char){
+function contamination(text, char) {
     return text.split('').map(x => x = char).join('')
 }
